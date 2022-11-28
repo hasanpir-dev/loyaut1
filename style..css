@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(22, 114, 45);
+    color: antiquewhite;
+ padding-bottom: 70px;
+}
+
+.navbar {
+    display: flex;
+  background-color: rgb(47, 47, 105);
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    top: 130px;
+    
+ 
+}
+
+.cointainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+ul {
+    padding: 5px;
+    background-color: rgb(47, 47, 105);
+
+    text-align: center;
+    margin: 0 auto;
+
+    /* left: 50%;
+    transform: translate(-50%, 0); */
+
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+   
+}
+
+.navbar a {
+    color: aliceblue;
+    padding: 16px 20px;
+ 
+}
+
+a:hover {
+    color: rgb(34, 39, 25);
+    transition: 2s;
+    font-style: italic;
+
+
+}
+
+li:hover:first-child {
+    background-color: rgb(186, 165, 28);
+
+}
+
+li:hover:nth-child(2) {
+    background-color: rgb(96, 186, 28);
+
+}
+
+li:hover:nth-child(3) {
+    background-color: rgb(219, 39, 75);
+
+}
+
+li:hover:last-child {
+    background-color: rgb(19, 243, 232);
+
+
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.main {
+    display: flex;
+    background-color: aquamarine;
+    margin-top: 4
+0px;
+}
+
+
+.sidebar {
+    background-color: beige;
+    flex: 25%;
+    padding: 20px;
+    order: 1;
+}
+
+.box {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 10px 0 ;
+}
+.content {
+    flex:75%;
+    padding: 20px;
+}
+.ph {
+    background-color: grey;
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+.main, .navbar {
+    flex-direction: column;
+}
+
+.sidebar {
+    order:-1
+}
+}
+    

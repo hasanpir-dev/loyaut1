@@ -1,0 +1,29 @@
+.cointainer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(20, 220, 123);
+    border: 1px solid cadetblue;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    align-items: flex-end;
+    
+}
+div {
+    background-color: green;
+    border: 1px solid green;
+    width: 10%;
+    margin: 10px;
+}
+.a {
+    height: 250px;
+}
+.d {
+    height: 174px;
+}
+.b {
+    height: 92px;
+}
+.c {
+    height: 221px;
+}
